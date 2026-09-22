@@ -1,0 +1,292 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Evasão Escolar — Causas, Consequências e Soluções</title>
+  <meta name="description" content="Site educativo sobre evasão escolar: o que acontece nas escolas, por que acontece, o que pode melhorar e como resolver. Inclui gráfico de pizza com os percentuais de cada situação." />
+  <link rel="stylesheet" href="style.css" />
+  <!-- Biblioteca de gráficos Chart.js -->
+  <script src="https://cdn.jsdelivr.net/npm/chart.js@4.4.1/dist/chart.umd.min.js"></script>
+<script src="https://sites.super.myninja.ai/_assets/ninja-daytona-script.js"></script>
+</head>
+<body>
+
+  <!-- ===================== HERO ===================== -->
+  <header class="hero">
+    <span class="badge">Educação &amp; Cidadania</span>
+    <h1>Evasão Escolar</h1>
+    <p>Entenda o que acontece nas escolas, por que os alunos abandonam os estudos,
+       o que pode melhorar e quais soluções realmente funcionam para manter
+       cada estudante na sala de aula.</p>
+  </header>
+
+  <!-- ===================== NAVEGAÇÃO ===================== -->
+  <nav class="nav">
+    <a href="#panorama">Panorama</a>
+    <a href="#acontece">O que acontece</a>
+    <a href="#porque">Por que acontece</a>
+    <a href="#grafico">Gráfico</a>
+    <a href="#melhorar">O que melhorar</a>
+    <a href="#solucoes">Como resolver</a>
+  </nav>
+
+  <main class="container">
+
+    <!-- ===================== PANORAMA ===================== -->
+    <section id="panorama">
+      <h2 class="section-title">Panorama da evasão escolar</h2>
+      <p class="section-sub">
+        A evasão escolar é o abandono dos estudos antes da conclusão de uma etapa
+        de ensino. Ela não acontece de repente: é o resultado de um acúmulo de
+        problemas sociais, econômicos, pedagógicos e emocionais que empurram o
+        aluno para fora da escola. Os números abaixo ajudam a dimensionar o problema.
+      </p>
+
+      <div class="stats">
+        <div class="stat-card">
+          <div class="num" data-count="9.5" data-suffix="%">0%</div>
+          <div class="label">dos jovens de 15 a 17 anos estão fora da escola no Brasil</div>
+        </div>
+        <div class="stat-card">
+          <div class="num" data-count="2" data-suffix=" mi">0</div>
+          <div class="label">de crianças e adolescentes fora da sala de aula</div>
+        </div>
+        <div class="stat-card">
+          <div class="num" data-count="50" data-suffix="%">0%</div>
+          <div class="label">dos que abandonam citam falta de interesse ou necessidade de trabalhar</div>
+        </div>
+        <div class="stat-card">
+          <div class="num" data-count="3" data-suffix="x">0</div>
+          <div class="label">mais chance de evasão em escolas com infraestrutura precária</div>
+        </div>
+      </div>
+    </section>
+
+    <!-- ===================== O QUE ACONTECE ===================== -->
+    <section id="acontece">
+      <h2 class="section-title">O que acontece nas escolas</h2>
+      <p class="section-sub">
+        No dia a dia, a evasão se manifesta de várias formas. Muitas vezes o aluno
+        continua matriculado, mas está fisicamente ausente ou emocionalmente
+        desconectado. Veja as situações mais comuns observadas nas escolas.
+      </p>
+
+      <div class="grid">
+        <div class="card vermelho">
+          <h3><span class="icon">🚪</span> Muita falta de alunos</h3>
+          <p>Faltas constantes e repetidas levam à reprovação e, por fim, ao abandono.
+             O aluno perde o vínculo com a turma e com o conteúdo, sentindo que
+             "não faz mais parte" da escola.</p>
+        </div>
+        <div class="card laranja">
+          <h3><span class="icon">👩‍🏫</span> Falta de professores</h3>
+          <p>A ausência frequente de docentes, a rotatividade e a falta de professores
+             efetivos deixam turmas sem aula. Sem continuidade, o aluno desmotiva e
+             perde o interesse pelo estudo.</p>
+        </div>
+        <div class="card amarelo">
+          <h3><span class="icon">🏃</span> Alunos fora de sala</h3>
+          <p>Estudantes que circulam pelos corredores, ficam no pátio ou matam aula
+             demonstram desinteresse e falta de vínculo. É um sinal claro de que a
+             escola não está conseguindo engajar o jovem.</p>
+        </div>
+        <div class="card roxo">
+          <h3><span class="icon">🗑️</span> Depredação e sujeira</h3>
+          <p>Paredes pichadas, carteiras quebradas e lixo espalhado revelam a falta de
+             pertencimento. Quando o aluno não sente a escola como sua, ele a
+             destrói em vez de cuidar dela.</p>
+        </div>
+        <div class="card vermelho">
+          <h3><span class="icon">📉</span> Baixo desempenho e reprovação</h3>
+          <p>Notas baixas, dificuldade de leitura e repetência acumulada geram
+             frustração. O aluno que repete várias vezes tende a desistir por se
+             sentir incapaz.</p>
+        </div>
+        <div class="card laranja">
+          <h3><span class="icon">😔</span> Desmotivação e saúde mental</h3>
+          <p>Ansiedade, depressão, bullying e problemas familiares afastam o aluno.
+             Sem apoio psicológico, a escola se torna um lugar de sofrimento e não
+             de acolhimento.</p>
+        </div>
+      </div>
+    </section>
+
+    <!-- ===================== POR QUE ACONTECE ===================== -->
+    <section id="porque">
+      <h2 class="section-title">Por que essas situações acontecem</h2>
+      <p class="section-sub">
+        A evasão é quase sempre multifatorial. Ela nasce da combinação de fatores
+        externos à escola (sociais e econômicos) com fatores internos (pedagógicos
+        e de gestão). Compreender as causas é o primeiro passo para combatê-las.
+      </p>
+
+      <div class="grid">
+        <div class="card">
+          <h3><span class="icon">💼</span> Fatores econômicos</h3>
+          <p>Pobreza, necessidade de trabalhar para ajudar em casa e falta de renda
+             fazem o jovem trocar a escola pelo trabalho. A distância e o custo do
+             transporte também pesam.</p>
+        </div>
+        <div class="card">
+          <h3><span class="icon">🏠</span> Fatores familiares</h3>
+          <p>Famílias desestruturadas, baixa escolaridade dos pais e ausência de
+             acompanhamento nos estudos reduzem o incentivo para o aluno continuar.</p>
+        </div>
+        <div class="card">
+          <h3><span class="icon">📚</span> Fatores pedagógicos</h3>
+          <p>Aulas pouco atrativas, currículo distante da realidade do aluno e
+             metodologias ultrapassadas tornam o aprendizado desinteressante.</p>
+        </div>
+        <div class="card">
+          <h3><span class="icon">🏫</span> Fatores de infraestrutura</h3>
+          <p>Escolas sem biblioteca, laboratórios, quadras ou merenda adequada
+             sinalizam descaso e desvalorizam a experiência escolar.</p>
+        </div>
+        <div class="card">
+          <h3><span class="icon">🤝</span> Fatores sociais</h3>
+          <p>Violência, bullying, discriminação e influência de grupos que
+             desvalorizam o estudo afastam o aluno do ambiente escolar.</p>
+        </div>
+        <div class="card">
+          <h3><span class="icon">🧭</span> Fatores de gestão</h3>
+          <p>Falta de professores efetivos, alta rotatividade, ausência de projetos
+             e de busca ativa fazem a escola perder o aluno sem perceber.</p>
+        </div>
+      </div>
+    </section>
+
+    <!-- ===================== GRÁFICO ===================== -->
+    <section id="grafico">
+      <h2 class="section-title">Gráfico: como cada situação acontece</h2>
+      <p class="section-sub">
+        O gráfico de pizza abaixo mostra a distribuição estimada de cada situação
+        relacionada à evasão escolar. Passe o mouse (ou toque) sobre as fatias para
+        ver os detalhes. Os valores são ilustrativos e servem para fins educativos.
+      </p>
+
+      <div class="chart-section">
+        <div class="chart-wrap">
+          <div class="chart-box">
+            <canvas id="graficoPizza" width="460" height="460"></canvas>
+          </div>
+          <ul class="chart-legend" id="legenda"></ul>
+        </div>
+      </div>
+    </section>
+
+    <!-- ===================== O QUE MELHORAR ===================== -->
+    <section id="melhorar">
+      <h2 class="section-title">O que podia melhorar nas escolas</h2>
+      <p class="section-sub">
+        Existem pontos concretos que, se melhorados, reduzem drasticamente a evasão.
+        Não se trata apenas de dinheiro, mas de prioridade, gestão e acolhimento.
+      </p>
+
+      <div class="grid">
+        <div class="card verde">
+          <h3><span class="icon">🎯</span> Aulas mais atrativas</h3>
+          <p>Metodologias ativas, projetos práticos e uso de tecnologia tornam o
+             aprendizado significativo e conectado à vida do aluno.</p>
+        </div>
+        <div class="card verde">
+          <h3><span class="icon">🧑‍🏫</span> Professores valorizados</h3>
+          <p>Salários justos, formação continuada e estabilidade reduzem a
+             rotatividade e garantem continuidade no ensino.</p>
+        </div>
+        <div class="card verde">
+          <h3><span class="icon">🏗️</span> Infraestrutura digna</h3>
+          <p>Salas adequadas, biblioteca, laboratórios, quadra e merenda de qualidade
+             fazem o aluno querer estar na escola.</p>
+        </div>
+        <div class="card verde">
+          <h3><span class="icon">💚</span> Apoio socioemocional</h3>
+          <p>Psicólogos, assistentes sociais e programas anti-bullying acolhem o
+             aluno e cuidam da sua saúde mental.</p>
+        </div>
+        <div class="card verde">
+          <h3><span class="icon">👨‍👩‍👧</span> Parceria com as famílias</h3>
+          <p>Envolver pais e responsáveis no acompanhamento escolar fortalece o
+             vínculo e o incentivo para o aluno continuar.</p>
+        </div>
+        <div class="card verde">
+          <h3><span class="icon">🔎</span> Busca ativa</h3>
+          <p>Monitorar faltas e procurar o aluno ausente rapidamente evita que uma
+             ausência se transforme em abandono definitivo.</p>
+        </div>
+      </div>
+    </section>
+
+    <!-- ===================== SOLUÇÕES ===================== -->
+    <section id="solucoes">
+      <h2 class="section-title">Como resolver a evasão escolar</h2>
+      <p class="section-sub">
+        Resolver a evasão exige ação conjunta de escola, família, comunidade e poder
+        público. Estas são as estratégias mais eficazes, organizadas em passos.
+      </p>
+
+      <div class="solutions">
+        <div class="solution">
+          <span class="step">1</span>
+          <h4>Diagnóstico e monitoramento</h4>
+          <p>Mapear faltas, reprovações e alunos em risco por meio de dados e
+             relatórios para agir antes que o abandono aconteça.</p>
+        </div>
+        <div class="solution">
+          <span class="step">2</span>
+          <h4>Busca ativa do aluno ausente</h4>
+          <p>Contatar a família, visitar a casa e entender o motivo da ausência,
+             oferecendo apoio imediato e personalizado.</p>
+        </div>
+        <div class="solution">
+          <span class="step">3</span>
+          <h4>Programas de reforço e recuperação</h4>
+          <p>Oferecer aulas de reforço, tutoria e recuperação paralela para que o
+             aluno com dificuldade não fique para trás.</p>
+        </div>
+        <div class="solution">
+          <span class="step">4</span>
+          <h4>Educação profissionalizante e projetos</h4>
+          <p>Conectar o currículo ao mundo do trabalho, com cursos técnicos,
+             oficinas e projetos que deem sentido ao estudo.</p>
+        </div>
+        <div class="solution">
+          <span class="step">5</span>
+          <h4>Apoio social e financeiro</h4>
+          <p>Bolsas, transporte escolar, alimentação e programas de renda mínima
+             reduzem a pressão econômica que empurra o aluno para o trabalho.</p>
+        </div>
+        <div class="solution">
+          <span class="step">6</span>
+          <h4>Cultura de acolhimento e pertencimento</h4>
+          <p>Construir uma escola acolhedora, com escuta ativa, respeito e
+             participação do aluno, faz com que ele queira permanecer.</p>
+        </div>
+      </div>
+    </section>
+
+    <!-- ===================== DESTAQUE FINAL ===================== -->
+    <section>
+      <div class="highlight">
+        <h2>Educação é um direito — e um caminho</h2>
+        <p>
+          Cada aluno que permanece na escola transforma não apenas a própria vida,
+          mas toda a comunidade ao seu redor. Combater a evasão é investir no futuro,
+          garantir oportunidades e construir uma sociedade mais justa. A escola que
+          acolhe, ensina com sentido e cuida do aluno é a escola que não perde ninguém.
+        </p>
+      </div>
+    </section>
+
+  </main>
+
+  <!-- ===================== RODAPÉ ===================== -->
+  <footer>
+    <p><strong>Projeto educativo sobre Evasão Escolar</strong></p>
+    <p>Conteúdo informativo criado em HTML, CSS e JavaScript • Gráfico gerado com Chart.js</p>
+    <p>Os percentuais do gráfico são estimativas ilustrativas para fins didáticos.</p>
+  </footer>
+
+  <script src="script.js"></script>
+</body>
+</html>
